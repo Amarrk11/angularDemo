@@ -1,0 +1,5 @@
+<div class="row row-cols-md-4 ">
+    @for(cp of categoryProducts; track cp.id){
+    <app-product-card [product]='cp'></app-product-card>
+    }
+</div>

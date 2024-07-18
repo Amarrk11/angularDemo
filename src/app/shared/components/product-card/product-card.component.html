@@ -1,0 +1,9 @@
+<div class="card">
+    <img [src]="'/assets/'+ product.img " class="card-img-top" alt="No img">
+    <div class="card-body">
+        <h5 class="card-title">{{product.id}}</h5>
+        <p class="card-text">{{product.name}}</p>
+        <button type="button" class="btn btn-success" [routerLink]="['product',product.id]">More Details</button>
+
+    </div>
+</div>
